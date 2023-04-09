@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinamic Menu</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav">
+      <div class="nav-center">
+        <div class="nav-header">
+          <button class="btn toggle-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <button class="link-btn">productos</button>
+          </li>
+          <li>
+            <button class="link-btn">servicios</button>
+          </li>
+          <li>
+            <button class="link-btn">Empresa</button>
+          </li>
+        </ul>
+        <button class="btn signin-btn">Iniciar sesión</button>
+      </div>
+    </nav>
+    <!-- hero  -->
+    <section class="hero">
+      <div class="hero-center">
+        <article class="hero-info">
+          <h1>
+            Genéricos Genalca 
+          </h1>
+          <p>
+            Genericos a base de hipoclorito, Sulfónico, fragancias. Entre las principales actividades que realiza Genalca, tenemos la venta de herramientas y artículos para el hogar.
+          </p>
+          <button class="btn">Iniciar ahora</button>
+        </article>
+        <article class="hero-images">
+          <img src="./images/phone.svg" class="phone-img" alt="" />
+        </article>
+      </div>
+    </section>
+    <!-- sidebar -->
+    <div class="sidebar-wrapper">
+      <aside class="sidebar">
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="sidebar-links"></div>
+        <!-- links -->
+      </aside>
+    </div>
+    <!-- links -->
+    <aside class="submenu"></aside>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
